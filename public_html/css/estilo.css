@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Open-Sans, arial, sans-serif;
+    font-size: 12px;
+    color: #777777;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 50px;
+    background: #F4F4F4;
+}
+
+#topo p {
+    line-height: 50px;
+    float: left;
+}
+
+#social {
+    float: right;
+    margin-top: 10px;
+}
+
+#social ul {
+    list-style: none;
+}
+
+#social ul li {
+    height: 30px;
+    width: 30px;
+    background: url(../img/social-sprites.png) no-repeat;
+    float: left;
+    margin-right: 10px;
+}
+
+#social ul .facebook {
+    background-position: 0 -150px;
+}
+
+#social ul .google {
+    background-position: 0 -330px;
+}
+
+#menu {
+    height: 120px;
+    background: #2678A4;
+}
+
+#menu .logo {
+    font-size: 50px;
+    color: #fff;
+    float: left;
+    margin-top: 35px;
+}
+
+#menu nav {
+    float: right;
+}
+
+#menu nav ul {
+    list-style: none;
+}
+
+#menu nav ul li {
+    float: left;
+}
+
+#menu nav ul li a {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 120px;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#menu nav ul li a:hover {
+    background: #f4f4f4;
+    color: #333;
+    border-top: 2px solid #2678A4;
+    border-bottom: 2px solid #2678A4;
+}
