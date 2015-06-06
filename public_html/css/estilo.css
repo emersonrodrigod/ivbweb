@@ -47,6 +47,13 @@
     background-position: 0 -330px;
 }
 
+#social ul li a {
+    height: 30px;
+    width: 30px;
+    display: block;
+    content: "";
+}
+
 #menu {
     height: 120px;
     background: #2678A4;
