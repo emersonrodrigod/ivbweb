@@ -149,3 +149,68 @@
     float: right;
 }
 
+
+.clear {
+    clear: both;
+}
+
+#servicos h3 {
+    font-size: 29px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#servicos hr {
+    height: 2px;
+    width: 100%;
+    background: #ccc;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#servicos {
+    height: 290px;
+}
+
+#servicos ul {
+    list-style-type: none;
+}
+
+#servicos ul li {
+    font-size: 29px;
+}
+
+#servicos #esquerda {
+    float: left;
+    margin-left: 50px;
+}
+
+#servicos #direita {
+    float: right;
+    margin-right: 50px;
+}
+
+
+footer {
+    height: 330px;
+    background: #555;
+}
+
+footer p {
+    color: #fff;
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+
+footer #endereco {
+    float: left;
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer #mapa {
+    float: right;
+    margin-top: 20px;
+}
+
