@@ -80,6 +80,7 @@
 
 #menu nav ul li {
     float: left;
+    position: relative;
 }
 
 #menu nav ul li a {
@@ -97,6 +98,25 @@
     color: #333;
     border-top: 2px solid #2678A4;
     border-bottom: 2px solid #2678A4;
+}
+
+/*drop-down menu*/
+#menu nav ul li ul {
+    display: none;
+    position: absolute;
+}
+
+#menu nav ul li:hover ul {
+    display: block;
+}
+
+#menu nav ul li ul li a {
+    height: 50px;
+    width: 150px;
+    background: #2678A4;
+    display: block;
+    line-height: 50px;
+    border-top: 2px solid #fff;
 }
 
 #banner {
